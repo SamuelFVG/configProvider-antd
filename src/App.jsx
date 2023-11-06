@@ -1,7 +1,12 @@
 import React from "react";
+import { Button } from "antd";
+import { Container } from "./Styles";
 
-function App() {
-  return <div>Teste</div>;
+export default function App() {
+  return (
+    <Container>
+      <Button>Hello world</Button>
+      <div>Teste</div>
+    </Container>
+  );
 }
-
-export default App;
