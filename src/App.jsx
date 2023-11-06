@@ -2,6 +2,7 @@ import React from "react";
 import { Button, ConfigProvider } from "antd";
 import { Container } from "./Styles";
 import { globalTheme } from "./Styles/Themes";
+import ThemesComponent from "./Styles/ThemesComponent";
 
 export default function App() {
   return (
